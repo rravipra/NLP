@@ -54,16 +54,16 @@ I have trained my model with a learning rate of 0.01, a batch size of 100 and 15
 
 1) Sentiment Lexicon Classifier:
 
-Accuracy: 0.695
-Precision: 0.732
-Recall: 0.640
-F1 Score: 0.682
+Accuracy: 0.695 //
+Precision: 0.732 //
+Recall: 0.640 //
+F1 Score: 0.682 //
 
 2) Logistic Regression Classifier:
 
-Accuracy: 0.860
-Precision: 0.857
-Recall: 0.849
-F1 Score: 0.850
+Accuracy: 0.860 //
+Precision: 0.857 //
+Recall: 0.849 //
+F1 Score: 0.850 //
 
 
