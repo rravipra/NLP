@@ -1,23 +1,39 @@
-# Natural Language Processing Classifiers
+# Natural Language Processing
 
-The Jupyter Notebook contains the code for two types of text classifiers.
+1) Classifiers:
+The Jupyter Notebook Text.classifiers.ipynb contains the code for two types of text classifiers.
+- A Sentiment Lexicon Classifier.
+- Logistic Regression Classifier from scratch.
 
-1) A Sentiment Lexicon Classifier.
-2) Logistic Regression Classifier from scratch.
+2) Unigram Model:
+The code to build a unigram model from scratch,
+
+3) The Viterbi algorithm for decoding masked characters by maximizing the probability under the bi-gram model.
+The code for the algorithm.
 
 # Contents
 
-Text.classifiers.ipynb - The Jupyter notebook for both the classifiers inclding training and testing the classifiers
+1) Text.classifiers.ipynb - The Jupyter notebook for both the classifiers inclding training and testing the classifiers
+2) Unigram.ipynb - The Jupyter notebook for the unigram model
+3) Viterbi.ipynb - The Jupyter notebook for the Viterbi algorithm under the bigram model.
 
 # Data
 
-You can use your own datasets. The datasets should be text files which has already been classified as positive and negative documents which you will be using to train the logisistic regression classifier. The dataset can be the same for the lexicon based classifier but you will only be using it as a test set about 20% of the data or less than that depending on the number of files you have as your data. You should also have two files that contain a list of positive and negative sentiment words so that you can use that to test the sentiment lexicon classifier.
+1) You can use your own datasets. The datasets should be text files which has already been classified as positive and negative documents which you will be using to train the logisistic regression classifier. The dataset can be the same for the lexicon based classifier but you will only be using it as a test set about 20% of the data or less than that depending on the number of files you have as your data. You should also have two files that contain a list of positive and negative sentiment words so that you can use that to test the sentiment lexicon classifier.
+
+2) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
+
+3) You can use your own datasets. The dataset has to be of the format where each line contains characters separated by a space and some characeters are "masked",
+in the sense they are unknown and you need to predict them.
+For the bi-gram data, you need to have the bi-grams and their respective pretrained probabilities in a text file line by line (Please refer to the code for further details)
 
 # Methods used
 
-1) Lexicon Classifier: Based on the negative and positive sentiment words you classify the document with more positive sentiment words that negative sentiment words if not classify it as negative.
+1) Classifiers:
 
-2) Logistic Regression Classifier: Using a matrix X which contains the vectors of the count of all the words in the vocabulary (remove stop words if you have to) and y being the true labels {0,1} I train my Logistic regression model from scratch.
+- Lexicon Classifier: Based on the negative and positive sentiment words you classify the document with more positive sentiment words that negative sentiment words if not classify it as negative.
+
+- Logistic Regression Classifier: Using a matrix X which contains the vectors of the count of all the words in the vocabulary (remove stop words if you have to) and y being the true labels {0,1} I train my Logistic regression model from scratch.
 
 # Feature selection for logistic regression.
 
