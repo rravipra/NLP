@@ -11,11 +11,23 @@ The code to build a unigram model from scratch,
 3) The Viterbi algorithm for decoding masked characters by maximizing the probability under the bi-gram model.
 The code for the algorithm.
 
+4) Bigram Model:
+The code to build a bi-gram model from scratch.
+
+5) Tri-gram Model:
+The code to build a tri-gram model from scratch.
+
+6) Byte Pair Encoding:
+The code to perform Byte-pair encoding on a text document
+
 # Contents
 
 1) Text.classifiers.ipynb - The Jupyter notebook for both the classifiers inclding training and testing the classifiers
 2) Unigram.ipynb - The Jupyter notebook for the unigram model
 3) Viterbi.ipynb - The Jupyter notebook for the Viterbi algorithm under the bigram model.
+4) Bigrams.ipynb - The Jupyter notebook for the bi-gram model
+5) Trigrams.ipynb - The Jupyter notebook for the tri-gram model
+6) BPE.ipynb - The Jupyter notebook for the Byte-pair encoding model on a text document.
 
 # Data
 
@@ -26,6 +38,12 @@ The code for the algorithm.
 3) You can use your own datasets. The dataset has to be of the format where each line contains characters separated by a space and some characeters are "masked",
 in the sense they are unknown and you need to predict them.
 For the bi-gram data, you need to have the bi-grams and their respective pretrained probabilities in a text file line by line (Please refer to the code for further details)
+
+4) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
+
+5) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
+
+6) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
 
 # Methods used
 
