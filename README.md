@@ -20,6 +20,8 @@ The code to build a tri-gram model from scratch.
 6) Byte Pair Encoding:
 The code to perform Byte-pair encoding on a text document
 
+7) Whitespace Tokenizer:
+
 # Contents
 
 1) Text.classifiers.ipynb - The Jupyter notebook for both the classifiers inclding training and testing the classifiers
@@ -28,6 +30,7 @@ The code to perform Byte-pair encoding on a text document
 4) Bigrams.ipynb - The Jupyter notebook for the bi-gram model
 5) Trigrams.ipynb - The Jupyter notebook for the tri-gram model
 6) BPE.ipynb - The Jupyter notebook for the Byte-pair encoding model on a text document.
+7) Tokenizer_whitespace.ipynb - The Jupyter notebook for the Whitespace Tokenizer model using Logistic Regression
 
 # Data
 
@@ -44,6 +47,8 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 5) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
 
 6) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
+
+7) The text for Alice in Wonderland downloaded using the NLTK library.
 
 # Methods used
 
