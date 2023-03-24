@@ -59,6 +59,10 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 
 - Logistic Regression Classifier: Using a matrix X which contains the vectors of the count of all the words in the vocabulary (remove stop words if you have to) and y being the true labels {0,1} I train my Logistic regression model from scratch.
 
+3) Please refer Viterbi.pdf for detailed methodology used for the code.
+
+Note: For the rest of the models I am in the process of writing up the metodology and will add them in the upcoming days.
+
 # Feature selection for logistic regression.
 
 The logistic regression classifier in my case uses a similar model as the bag of words to pick the
