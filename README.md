@@ -63,7 +63,7 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 
 Note: For the rest of the models I am in the process of writing up the metodology and will add them in the upcoming days.
 
-# Feature selection for logistic regression.
+# Feature selection for the logistic regression model (1)
 
 The logistic regression classifier in my case uses a similar model as the bag of words to pick the
 features. In my case first I have a set of stop words that I can use to remove it from my vocabulary so
