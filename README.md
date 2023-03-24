@@ -21,6 +21,7 @@ The code to build a tri-gram model from scratch.
 The code to perform Byte-pair encoding on a text document
 
 7) Whitespace Tokenizer:
+The code for the logistic regression model to predict for each character whether there is a whitespace character after it or not. The is done using 11-grams, (i.e prediction for the current character using 5 characters before it and 5 characters after it).
 
 # Contents
 
