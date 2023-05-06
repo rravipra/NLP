@@ -32,6 +32,7 @@ The code for the logistic regression model to predict for each character whether
 5) Trigrams.ipynb - The Jupyter notebook for the tri-gram model
 6) BPE.ipynb - The Jupyter notebook for the Byte-pair encoding model on a text document.
 7) Tokenizer_whitespace.ipynb - The Jupyter notebook for the Whitespace Tokenizer model using Logistic Regression
+8) Translators.py - The Python file contains the code for traslating the following languages to each other ['Chinese', 'Japanese', 'Norwegian', 'English', 'Spanish', 'Hindi] (Note: It has only been trained on a dataset that has text of how numbers are spelt)
 
 # Data
 
@@ -50,6 +51,8 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 6) You can use your own datasets. The datasets should be text files that contains sentences of words line by line.
 
 7) The text for Alice in Wonderland downloaded using the NLTK library.
+
+8) You can use your own dataset where text from each language is translated to the other language that has been mentioned.
 
 # Methods used
 
