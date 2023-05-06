@@ -1,4 +1,6 @@
-# Natural Language Processing (Note: Is updated regularly so if you see something missing and need further information please reach out to me)
+# Natural Language Processing:
+
+(Note: Is updated regularly so if you see something missing and need further information please reach out to me at rthvik.07@gmail.com or rravipra@uw.edu)
 
 1) Classifiers:
 The Jupyter Notebook Text.classifiers.ipynb contains the code for two types of text classifiers.
