@@ -38,7 +38,7 @@ The code for a Binary logistic regression model to predict for an example if the
 6) BPE.ipynb - The Jupyter notebook for the Byte-pair encoding model on a text document.
 7) Tokenizer_whitespace.ipynb - The Jupyter notebook for the Whitespace Tokenizer model using Logistic Regression
 8) Translators.py - The Python file contains the code for traslating the following languages to each other ['Chinese', 'Japanese', 'Norwegian', 'English', 'Spanish', 'Hindi] (Note: It has only been trained on a dataset that has text of how numbers are spelt)
-9) Corruption_classifier.py - The Python file contains the code for a Binary logistic regression model to predict for an example if the first sentence which is the one before the tab is corrupted or the second sentence which is the one after the tab ("\t") is corrupted.
+9) corruption_classifier.py - The Python file contains the code for a Binary logistic regression model to predict for an example if the first sentence which is the one before the tab is corrupted or the second sentence which is the one after the tab ("\t") is corrupted.
 
 # Data
 
