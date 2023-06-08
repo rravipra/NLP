@@ -25,6 +25,9 @@ The code to perform Byte-pair encoding on a text document
 7) Whitespace Tokenizer:
 The code for the logistic regression model to predict for each character whether there is a whitespace character after it or not. The is done using 11-grams, (i.e prediction for the current character using 5 characters before it and 5 characters after it).
 
+8) Corruption Classifier:
+The code for a Binary logistic regression model to predict for an example if the first sentence which is the one before the tab is corrupted or the second sentence which is the one after the tab ("\t") is corrupted.
+
 # Contents
 
 1) Text_classifiers.ipynb - The Jupyter notebook for both the classifiers inclding training and testing the classifiers
@@ -35,6 +38,7 @@ The code for the logistic regression model to predict for each character whether
 6) BPE.ipynb - The Jupyter notebook for the Byte-pair encoding model on a text document.
 7) Tokenizer_whitespace.ipynb - The Jupyter notebook for the Whitespace Tokenizer model using Logistic Regression
 8) Translators.py - The Python file contains the code for traslating the following languages to each other ['Chinese', 'Japanese', 'Norwegian', 'English', 'Spanish', 'Hindi] (Note: It has only been trained on a dataset that has text of how numbers are spelt)
+9) Corruption_classifier.py - The Python file contains the code for a Binary logistic regression model to predict for an example if the first sentence which is the one before the tab is corrupted or the second sentence which is the one after the tab ("\t") is corrupted.
 
 # Data
 
@@ -55,6 +59,8 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 7) The text for Alice in Wonderland downloaded using the NLTK library.
 
 8) You can use your own dataset where text from each language is translated to the other language that has been mentioned.
+
+9) You can use your own datasets. The datasets should be text files that contains two sentences of words where the sentences are separated by a tab (i.e "\t") line by line.
 
 # Methods used
 
