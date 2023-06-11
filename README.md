@@ -75,7 +75,9 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 
 3) Please refer Viterbi.pdf for detailed methodology used for the code.
 
-Note: For the rest of the models I am in the process of writing up the metodology and will add them in the upcoming days.
+10) Please refer to corruption_data_method.pdf for the methodology used for the code in corruption_data.py
+
+Note: For the rest of the models I am in the process of writing up the metodology and will add them in the upcoming days or I mention the steps that I have taken using the comments in the code.
 
 # Feature selection for the logistic regression model (1. Text_classifiers.ipynb)
 
