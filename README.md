@@ -39,6 +39,7 @@ The code for a Binary logistic regression model to predict for an example if the
 7) Tokenizer_whitespace.ipynb - The Jupyter notebook for the Whitespace Tokenizer model using Logistic Regression
 8) Translators.py - The Python file contains the code for traslating the following languages to each other ['Chinese', 'Japanese', 'Norwegian', 'English', 'Spanish', 'Hindi] (Note: It has only been trained on a dataset that has text of how numbers are spelt)
 9) corruption_classifier.py - The Python file contains the code for a Binary logistic regression model to predict for an example if the first sentence which is the one before the tab is corrupted or the second sentence which is the one after the tab ("\t") is corrupted.
+10) corruption_data.py - The Python file contains the code for creating a dataset similar to the one used in corruption_classifier.py but only the original English sentences are given to us and we need to come up with a possible corruption of that sentence and get it as data.
 
 # Data
 
@@ -61,6 +62,8 @@ For the bi-gram data, you need to have the bi-grams and their respective pretrai
 8) You can use your own dataset where text from each language is translated to the other language that has been mentioned.
 
 9) You can use your own datasets. The datasets should be text files that contains two sentences of words where the sentences are separated by a tab (i.e "\t") line by line.
+
+10) You can use your own datasets. The datasets should be text files that contains one sentence of words line by line where each sentence is grammatically correct and is in proper English. The reason that we need the data to be that way is that our goal is to come up with a dataset which contains the corruption of the particular sentence.
 
 # Methods used
 
